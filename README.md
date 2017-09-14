@@ -162,6 +162,6 @@ Caffe  Tensorflow
 	安装pycaffe：
 		1。make pycaffe
 		2。sudo gedit /etc/profile
-					# 添加： export PYTHONPATH=/home/user/caffe/python:$PYTHONPATH
+			# 添加： export PYTHONPATH=/home/user/caffe/python:$PYTHONPATH
 		3。source /etc/profile 
 		4。写入ide的pythonpath中
