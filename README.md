@@ -30,6 +30,7 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 
 
 1.安装Ubuntu 16.04 LTS
+
 	制作U盘安装。
 	安装14.04 再升级为16.04；
 	或直接安装16.04。
@@ -43,6 +44,7 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 		6。自动安装系统即可。
 
 2.安装NVIDIA显卡驱动
+
 	禁用Ubuntu自身的nouveau驱动，改用NVIDIA独立显卡的驱动：
 		1。lsmod | grep nouveau
 		2。sudo gedit /etc/modprobe.d/blacklist.conf  打开黑名单文件
@@ -61,6 +63,7 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 	安装完后可以在系统设置的软件与更新中的附加驱动里面手动设置显卡驱动。
 
 3.安装CUDA
+
 	到cuda官网下载对应版本cuda的runfile文件，直接安装，设置cuda的环境路径等。
 		1。sudo chmod +x cuda_8.0.61_375.26_linux.run
 		2。sudo service lightdm stop
@@ -78,6 +81,7 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 		sudo gedit /etc/ld.so.conf.d/cuda.conf  ，写入：/usr/local/cuda/lib64 ，生效： sudo ldconfig
 
 4.安装cuDNN
+
 	将cudnn中的相关文件复制到Ubuntu系统的相关目录中，建立软连接即可。
 		1。sudo cp cudnn.h  /usr/local/cuda/include/    #复制头文件
 		2。sudo cp lib*  /usr/local/cuda/lib64/    #复制动态链接库
@@ -88,6 +92,7 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 		7。sudo  ldconfig
 
 5.安装OpenCV
+
 	下载opencv3.2，直接编译即可，需要合适的gcc版本。注意，这还不能用python-opencv。
 		1。cd ~/opencv
 		2。mkdir build  //建立build文件夹
@@ -103,6 +108,7 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 	或：直接安装opencv，命令：sudo pip install  opencv-python
 
 6.安装Anaconda2
+
 	Anaconda是一个python的集成软件包，安装Anaconda2并把其设置成默认的python路径即可。
 		1。bash  Anaconda2-4.3.1-Linux-x86_64.sh
 		2。在最后输入yes，或者 sudo gedit ~/.bashrc ，手动写入： export PATH=/home/limy/anaconda2/bin:$PATH
@@ -114,10 +120,12 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 		3。执行安装： conda install --channel https://conda.anaconda.org/jjhelmus tensorflow
 
 7.安装Python3.6
+
 	当前最新版本的python为3.6，一些最新的研究可能会使用3.6，安装上用来跑别人的公开代码。
 	这部分安装问题很大，目前还不够稳定，没有特殊要求就不要安装。
 
 8.安装Pycharm和Spyder
+
 	Pycharm和Spyder是两个ide，安装使用十分方便。
 	安装Pycharm：
 		1。解压Pycharm安装包
@@ -130,15 +138,18 @@ Python: Anaconda2=python2.7 + python3.5&3.6
 		3。配置python路径和ide风格即可
 
 9.安装相关软件
+
 	常用有SogoPinYin、Chrome、Teamviewer等软件。
 	下载deb包，直接dpkg解压安装即可。
 
 10.安装Tensorflow
+
 	pip install tensorflow_gpu-1.3.0rc0-cp27-none-linux_x86_64.whl
 	adaconda会自动补全依赖的安装包。
 	记得在ide中更新一遍pythonpath。
 
 11.安装Caffe和pycaffe
+
 	安装关于caffe的一些依赖，在编译安装caffe，最后编译pycaffe，可以再ide中调用。
 		1。cd caffe-master/  
 		2。sudo cp Makefile.config.example Makefile.config  #根据自己的需要设置
