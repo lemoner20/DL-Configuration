@@ -1,6 +1,5 @@
 # ubuntu-DL-setting
-This setting is suitable for me.
-
+This applies only to my machine.
 
 Caffe  Tensorflow 
 
@@ -17,17 +16,18 @@ Caffe  Tensorflow
 	Python: Anaconda2=python2.7 + python3.5&3.6 
 
 目录
-  1. 安装Ubuntu 16.04.3 LTS
-  2. 安装NVIDIA显卡驱动
-  3. 安装CUDA
-  4. 安装cuDNN
-  5. 安装OpenCV
-  6. 安装Anaconda2
-  7. 安装Python3.6
-  8. 安装Pycharm & Spyder
-  9. 安装chrome，teamviewer，sogoinput等软件
-  10. 安装Tensorflow
-  11. 安装Caffe和pycaffe
+
+	1. 安装Ubuntu 16.04.3 LTS
+	2. 安装NVIDIA显卡驱动
+	3. 安装CUDA
+	4. 安装cuDNN
+	5. 安装OpenCV
+	6. 安装Anaconda2
+	7. 安装Python3.6
+	8. 安装Pycharm & Spyder
+	9. 安装chrome，teamviewer，sogoinput等软件
+	10. 安装Tensorflow
+	11. 安装Caffe和pycaffe
 
 
 1.安装Ubuntu 16.04 LTS
