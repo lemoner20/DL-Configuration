@@ -5,15 +5,16 @@ This setting is suitable for me.
 Caffe  Tensorflow 
 
 环境
-OS：Ubuntu 16.04(64 bit) 
-GCC/G++: gcc5.4.x / g++5.4.x
-GPU：Nvidia GTX 1080Ti × 1
-CPU:  Intel® Core™ i7-7700k CPU @ 4.20GHz × 8 
-内存：32 GB
-CUDA：CUDA 8.0
-cuDNN：cuDNN v8.0 for CUDA 8.0
-OpenCV: opencv-3.2.0 
-Python: Anaconda2=python2.7 + python3.5&3.6 
+
+	OS：Ubuntu 16.04(64 bit) 
+	GCC/G++: gcc5.4.x / g++5.4.x
+	GPU：Nvidia GTX 1080Ti × 1
+	CPU:  Intel® Core™ i7-7700k CPU @ 4.20GHz × 8 
+	内存：32 GB
+	CUDA：CUDA 8.0
+	cuDNN：cuDNN v8.0 for CUDA 8.0
+	OpenCV: opencv-3.2.0 
+	Python: Anaconda2=python2.7 + python3.5&3.6 
 
 目录
   1. 安装Ubuntu 16.04.3 LTS
