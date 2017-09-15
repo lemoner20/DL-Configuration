@@ -134,7 +134,7 @@ Caffe  Tensorflow
 		3。import导入个人配置
 		4。导入PythonPath
 	安装Spyder：
-		1。sudo pip install spyder
+		1。pip install spyder
 		2。sudo apt-get install python-pyqt*
 		3。配置python路径和ide风格即可
 
