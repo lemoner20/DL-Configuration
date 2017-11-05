@@ -1,4 +1,4 @@
-# ubuntu-DL-setting
+# Ubuntu DL Configuration
 This applies only to my machine.
 
 Caffe  Tensorflow 
