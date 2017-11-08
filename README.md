@@ -1,5 +1,4 @@
 # Ubuntu DL Configuration
-==========
 
 This applies only to my machine.
 
