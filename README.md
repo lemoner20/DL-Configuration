@@ -1,9 +1,10 @@
 # Ubuntu DL Configuration
 ==========
+
 This applies only to my machine.
 
-Caffe  Tensorflow 
-
+Caffe  Tensorflow Configuration
+==========
 环境
 
 	OS：Ubuntu 16.04(64 bit) 
