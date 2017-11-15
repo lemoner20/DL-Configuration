@@ -121,7 +121,6 @@ Caffe  Tensorflow Configuration
 		2。anaconda show jjhelmus/tensorflow  #选择一个合适的源，如jjhelmus
 		3。执行安装： conda install --channel https://conda.anaconda.org/jjhelmus tensorflow
 
-
 7.安装Python3.6
 
 	当前最新版本的python为3.6，一些最新的研究可能会使用3.6，安装上用来跑别人的公开代码。
