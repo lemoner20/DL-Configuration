@@ -45,6 +45,7 @@ Caffe  Tensorflow Configuration
 		5。用户空间：挂载点 “/home”，逻辑分区，存放个人文件，设置为40G；
 		6。自动安装系统即可。
 
+
 2.安装NVIDIA显卡驱动
 
 	禁用Ubuntu自身的nouveau驱动，改用NVIDIA独立显卡的驱动：
